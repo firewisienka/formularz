@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #33ffff;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    
+  }
+  
+  .column--left {
+    max-width: 500px;
+    height: 500px;
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    border-start-start-radius: 5%;
+    border-end-start-radius: 5%;
+    padding: 48px;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: white;
+  }
+
+  .text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+
+  .button-account {
+    height: 70px;
+    width: 250px;
+    margin-top: 55px;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+form {
+    width: 500px;
+    height: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+    border: 1px solid white;
+    padding: 3em;
+    background-color: white;
+    border-top-right-radius: 5%;
+    border-end-end-radius: 5%;
+
+}
+
+h1 {
+    color: blue;
+    margin-bottom: 30px;
+    
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mail {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    display: block;
+    width: 100%;
+ }
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    display: flex;
+    column-gap: 10px;
+}
+
+.button {
+    height: 70px;
+    width: 250px;
+    margin-top: 55px;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 2px solid royalblue;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
